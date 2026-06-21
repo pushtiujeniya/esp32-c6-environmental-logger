@@ -24,6 +24,15 @@ An open-source, 4-layer IoT environmental monitoring station and telemetry data 
 * **Power Path Switching:** Automated hardware power routing utilizing an AO3401A P-Channel MOSFET to seamlessly switch between USB power and Battery power.
 * **Regulator:** AP2112K-3.3V Ultra-low dropout, low-noise LDO regulator supplying clean $3.3\text{V}$ power rails up to $600\text{mA}$ to the wireless MCU and sensors.
 
+
+### 5. Push Button Switch
+* **Reset switch** A button with ESD protection  to reset the MCU 
+* **BOOT switch** A BOOT switch button to enter into bootloading mode for new firmware flashing
+  
+### 5. I2C and UART Pin Connector
+* External i2c pin header
+* External UART pin header  
+
 ---
 
 ## 🎛 4-Layer PCB Stackup Architecture
